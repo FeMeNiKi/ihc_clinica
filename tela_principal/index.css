@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nomeClinica{
+    position: relative;
+    align-items: flex-start;
+}
+
+.subTitulo{
+    justify-content: right;
+    color: white;
+}
+
+nav{
+    position: relative;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.chopperImage{
+    display: flex;
+    justify-content: right;
+}

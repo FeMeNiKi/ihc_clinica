@@ -1,0 +1,101 @@
+:root{
+    --primary: #7fc;
+    --background: #ffffff;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: var(--background);
+}
+
+.idioma-container {
+    position: relative;
+    display: inline-block;
+}
+
+.imgBandeira {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 20px; /* Ajuste conforme necessário */
+    z-index: 1;
+}
+
+#selectIdioma {
+    padding-left: 40px; /* Espaço para a imagem */
+    height: 40px; /* Ajuste conforme necessário */
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+
+}
+
+input{
+    padding: 5px;
+    font-size: medium;
+}
+
+.titulo{
+    text-align: center;
+    margin: 0;
+}
+
+.logIn{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 60%; 
+    max-width: 350px;
+    border-radius: 8px;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.linha-inferior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.esqueceu{
+    text-decoration: none;
+    color: rgb(103, 0, 238);
+}
+
+.esqueceu:hover{
+    text-decoration: underline;
+}
+
+button{
+    font-size: medium;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.login:hover{
+    text-decoration: underline;
+    color: rgb(103, 0, 238);
+}
+
+.cadastrar:hover{
+    text-decoration: underline;
+    color: rgb(103, 0, 238);
+}
+
+hr{
+    border: 1px, solid rgb(112, 177, 199);
+    margin: 1rem 0;
+}

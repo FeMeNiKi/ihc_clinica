@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Tela LogIn</title>
+</head>
+
+<body>
+    <header>
+        <div class="idioma-container">
+            <select name="idioma" id="selectIdioma">
+                <option value="portugues" data-img="imagens/Flag_of_Brazil.png">Português</option>
+                <option value="ingles" data-img="imagens/Flag_of_the_United_States.png">Inglês</option>
+            </select>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="logIn">
+            <h2 class="titulo">LOGIN</h2>
+            <br><br>
+
+            <label for="usuario">Usuário: </label>
+            <br>
+            <input type="text">
+            <br><br>
+
+            <label for="senha">Senha: </label>
+            <br>
+            <input type="password">
+            <br>
+
+            <div class="linha-inferior">
+                <div class="checkbox">
+                    <input type="checkbox" id="lembredemim" name="lembredemim">
+                    <label for="lembrar">Lembre de mim</label>
+                </div>
+                <a href="" class="esqueceu">Esqueceu da senha?</a>
+            </div>
+
+            <br>
+            <button class="login">Entrar</button>
+            <hr>
+            <button class="cadastrar">Cadastre-se</button>
+        </div>
+    </main>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
